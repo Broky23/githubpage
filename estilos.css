@@ -1,0 +1,39 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+body{
+   position: relative;
+   width: 100%; 
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(197, 115, 149);
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;  
+    max-width: 500px;
+    margin: 20px;
+}
+
+.contenedor .tenor-gif-emded{
+    display: flex;
+    max-width: 50px;
+}
+
+.btn a {
+    text-emphasis: none;
+    color: black;
+    background: white;
+    padding: 10px 25px;
+    border-radius: 10px;
+    box-shadow: 0.5rem 1rem 3rem hsl(0, 0, 0.3);      
+}
